@@ -1,0 +1,90 @@
+### System files ###
+*.log
+.DS_Store
+.htaccess
+sitemap.xml
+sitemap.xml.gz
+
+# WordPress Core files and folders
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-admin/
+/wp-admin
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-includes/
+/wp-includes
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+
+# Just because.
+node_modules
+
+# Pagely mu-plugins
+/wp-content/mu-plugins/pagely-app-stats/
+/wp-content/mu-plugins/pagely-assets/
+/wp-content/mu-plugins/pagely-cache-control/
+/wp-content/mu-plugins/pagely-cache-purge/
+/wp-content/mu-plugins/pagely-cdn/
+/wp-content/mu-plugins/pagely-cli/
+/wp-content/mu-plugins/pagely-management-v2.php
+wp-content/mu-plugins/redis-cache-pro.php
+/wp-content/mu-plugins/pagely-security-patches/
+/wp-content/mu-plugins/pagely-status/
+/wp-content/mu-plugins/pagely-util/
+/wp-content/mu-plugins/pagely-wp-cli-mail-patch/
+/wp-content/mu-plugins/pagely-pressthumb.php
+/wp-content/mu-plugins/pagely-plugin-upgrade-hooks
+/wp-content/mu-plugins/pagely-site-health
+/wp-content/mu-plugins/pagely-fix-blocks-urls/
+/wp-content/mu
+
+# Some Cache folders and files
+
+
+# We are having only wp-content items at the moment, so this makes more sense
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/object-cache.php
+
+### Themes and Theme files ###
+# List the themes here #
+
+### Plugins and Plugin files ###
+/wp-content/db.php
+/wp-content/autoptimize_404_handler.php
+
+### Backups Files ###
+# List the backup files here
+
+
+### Setup files ###
+# List the Setup files here
+
+
+# IDE Files
+.buildpath
+.settings/
+nbproject/
+/nbproject/private/
+.idea/
+.vscode
+
+# Anything else project related to be added here
+db-config.php
+pagely-cron.php
+wp-config-hosting.php
+wp-config.php
+
