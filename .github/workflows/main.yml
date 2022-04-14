@@ -40,4 +40,4 @@ jobs:
         # uses: rtCamp/action-phpcs-code-review@606311bf3bbb47cd4eda7c2de64360761114eb7e
         uses: rtCamp/action-phpcs-code-review@v2.1.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: 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
