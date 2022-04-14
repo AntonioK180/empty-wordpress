@@ -38,4 +38,4 @@ jobs:
       - name: PHPCS Code Review
         uses: rtCamp/action-phpcs-code-review@v2.1.0
         with:
-          repo-token: "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"
+          repo-token:  ${{ secrets.TOKEN }}
