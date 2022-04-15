@@ -1,4 +1,7 @@
 <?php
+/**
+ * File doc comment.
+ */
 
 /**
  * This whole thing is a test for GH Action.
