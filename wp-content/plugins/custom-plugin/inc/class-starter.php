@@ -12,7 +12,8 @@ class Starter {
 	 * A constructor function.
 	 */
 	public function __construct() {
-		$test = 1;
+		$test        = 1;
+		$second_test = 15;
 	}
 
 }
