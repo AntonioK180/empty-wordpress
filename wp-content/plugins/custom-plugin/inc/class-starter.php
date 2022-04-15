@@ -27,4 +27,9 @@ class Starter {
 		return 12;
 	}
 
+	function kK() {
+
+		return 'kK';
+	}
+
 }
