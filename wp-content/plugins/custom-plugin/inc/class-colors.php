@@ -24,4 +24,11 @@ class Colors {
 		return 12321;
 	}
 
+
+	function Idontfollow_LowStandaards() {
+
+					$var = '';
+return $var;
+				}
+
 }
