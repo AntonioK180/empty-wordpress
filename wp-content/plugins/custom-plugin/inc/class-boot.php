@@ -9,4 +9,10 @@ class Boot {
 		return 12;
 	}
 
+
+	function newBoot() {
+
+
+			return 123; 
+	}
 }
