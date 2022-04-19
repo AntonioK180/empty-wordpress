@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class that does some stuff.
+ */
 class Colors {
 
 	/**
