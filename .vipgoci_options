@@ -1,4 +1,4 @@
 {
-  "phpcs-severity": 5,
+  "phpcs-severity": 3,
   "review-comments-include-severity": true
 }
