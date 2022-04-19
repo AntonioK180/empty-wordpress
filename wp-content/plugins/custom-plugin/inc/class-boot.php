@@ -18,6 +18,6 @@ class Boot {
 	 */
 	public function new_boot() {
 
-		return 123; 
+		return 123;
 	}
 }
