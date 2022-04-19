@@ -28,7 +28,7 @@ class Starter {
 	}
 
 	function kK() {
-
+		$variable = 'kk';
 		return 'kK';
 	}
 
