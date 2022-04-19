@@ -5,7 +5,10 @@
  */
 class Boot {
 
-	public function bootBoot() {
+	/**
+	 * Boot the boot.
+	 */
+	public function boot_boot() {
 
 		return 12;
 	}
@@ -13,8 +16,8 @@ class Boot {
 	/**
 	 * Comment.
 	 */
-	public function newBoot() {
+	public function new_boot() {
 
-		return 123;
+		return 123; 
 	}
 }
