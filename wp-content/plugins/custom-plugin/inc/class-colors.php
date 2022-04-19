@@ -19,4 +19,9 @@ class Colors {
 		echo 'color-test';
 	}
 
+	function idontfollownoStandards() {
+
+		return 12321;
+	}
+
 }
