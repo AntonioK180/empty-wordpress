@@ -5,14 +5,16 @@
  */
 class Boot {
 
-	function bootBoot() {
+	public function bootBoot() {
+
 		return 12;
 	}
 
+	/**
+	 * Comment.
+	 */
+	public function newBoot() {
 
-	function newBoot() {
-
-
-			return 123; 
+		return 123;
 	}
 }
