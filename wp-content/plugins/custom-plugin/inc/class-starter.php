@@ -16,4 +16,20 @@ class Starter {
 		$second_test = 15;
 	}
 
+	/**
+	 * Does nothing.
+	 *
+	 * @return int number made out of diigts.
+	 */
+	public function start() {
+		$not_a_cookie = '879';
+
+		return 12;
+	}
+
+	function kK() {
+		$variable = 'kk';
+		return 'kK';
+	}
+
 }

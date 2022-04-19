@@ -7,9 +7,6 @@ on:
   pull_request:
     branches: [ master ]
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   runPHPCSInspection:
@@ -24,6 +21,7 @@ jobs:
       env:
         GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
         SKIP_FOLDERS: "tests,.github"
-        PHPCS_SNIFFS_EXCLUDE: "WordPress.Files.FileName"
+        PHPCS_SNIFFS_EXCLUDE: "WordPress.Files.FileName,Squiz.Commenting.FunctionComment,Squiz.Commenting.FileComment"
+        PHP_LINT: false
       with:
         args: "WordPress,WordPress-Core,WordPress-Docs"
