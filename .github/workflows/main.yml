@@ -24,6 +24,6 @@ jobs:
       env:
         GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
         SKIP_FOLDERS: "tests,.github"
-        PHPCS_SNIFFS_EXCLUDE: "WordPress.Files.FileName, Squiz.Commenting.FunctionComment.Missing"
+        PHPCS_SNIFFS_EXCLUDE: "WordPress.Files.FileName, Squiz.Commenting.FunctionComment"
       with:
         args: "WordPress,WordPress-Core,WordPress-Docs"
