@@ -12,4 +12,11 @@ class Colors {
 		echo 'color-test';
 	}
 
+	/**
+	 * Does even less!
+	 */
+	public function do_not_colorize() {
+		echo 'color-test';
+	}
+
 }
