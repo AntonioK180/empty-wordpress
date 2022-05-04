@@ -149,3 +149,8 @@ add_action( 'wp_head', 'twentytwentytwo_preload_webfonts' );
 
 // Add block patterns
 require get_template_directory() . '/inc/block-patterns.php';
+
+function test_pre_commmit_hook() {
+
+	return 12;
+}
