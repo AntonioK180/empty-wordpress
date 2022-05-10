@@ -20,7 +20,7 @@ jobs:
       uses: rtCamp/action-phpcs-code-review@v2
       env:
         GH_BOT_TOKEN: ${{ secrets.GH_BOT_TOKEN }}
-        SKIP_FOLDERS: "tests,.github" #,wp-content/plugins/jetpack
+        SKIP_FOLDERS: "tests,.github,wp-content/plugins/jetpack"
         PHPCS_SNIFFS_EXCLUDE: "WordPress.Files.FileName,Squiz.Commenting.FunctionComment,Squiz.Commenting.FileComment"
         PHP_LINT: false
       with:
