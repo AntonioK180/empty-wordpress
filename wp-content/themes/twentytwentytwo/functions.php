@@ -9,7 +9,6 @@
  * @since Twenty Twenty-Two 1.0
  */
 
-
 if ( ! function_exists( 'twentytwentytwo_support' ) ) :
 
 	/**
@@ -147,5 +146,13 @@ endif;
 
 add_action( 'wp_head', 'twentytwentytwo_preload_webfonts' );
 
-// Add block patterns
+// Add block patterns.
 require get_template_directory() . '/inc/block-patterns.php';
+
+/**
+ * A function which doesn't do anything.
+ */
+function following_coding_standards() {
+
+	return 1;
+}
